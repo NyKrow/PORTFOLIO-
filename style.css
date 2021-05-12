@@ -23,9 +23,11 @@ body {
     background-color: #dfbc20;
 }
 
+/*responsive */
+
 @media (max-width: 800px) {
     .menu {
-        flex-direction: column;
+        flex-direction: line;
         height: auto;
     }
     .item {
